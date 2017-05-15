@@ -8,13 +8,13 @@ Simple library that allows organize distribution of files within hex based tree.
 ## Install package:
 
 ```shell
-go get -u github.com/caffecoder/fdist-go
+go get -u github.com/xcdr/fdist-go
 ```
 
 ## Example of usage:
 
 ```go
-import fdist github.com/caffecoder/fdist-go
+import fdist github.com/xcdr/fdist-go
 
 var fd = fdist.NewFileDistribution("/tmp/storage")
 
